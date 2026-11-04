@@ -1,10 +1,11 @@
 # StockSense
 Console-based Inventory Management System in pure C for shops, canteens and hostel stores. Features cart billing with GST, low stock and expiry alerts, sales reports and admin/staff roles. Uses dynamic memory, structs, unions, recursion, bitwise flags and file handling. All data is saved in a binary file with a timestamped log. One 590-line C file.
-First when you run code it ask for admin name and then password.
-<img width="1920" height="1080" alt="Screenshot 2026-11-03 143752" src="https://github.com/user-attachments/assets/c5fb1502-499d-4e56-a890-326003501205" />
-Youn can choose any number as per your need Like to add item enter 1.
-<img width="1920" height="1080" alt="Screenshot 2026-11-03 143935" src="https://github.com/user-attachments/assets/9a0cfc74-d19f-43a6-a1e6-276d60614a72" />
-<img width="1920" height="1080" alt="Screenshot 2026-11-03 144226" src="https://github.com/user-attachments/assets/09b79ae5-c575-48b9-8389-867f9d4a06e0" />
+<img width="756" height="907" alt="Screenshot 2026-11-04 125659" src="https://github.com/user-attachments/assets/ea677881-fc39-4aa7-bf1e-68f4e1b26863" />
+<img width="737" height="846" alt="Screenshot 2026-11-04 125839" src="https://github.com/user-attachments/assets/04022e00-7da2-4a0e-80ed-07514b06990d" />
+<img width="761" height="847" alt="Screenshot 2026-11-04 125905" src="https://github.com/user-attachments/assets/fad3cb3c-d294-4166-8219-c27ed548956a" />
+<<img width="743" height="777" alt="Screenshot 2026-11-04 130201" src="https://github.com/user-attachments/assets/44833f6e-a540-4223-acd5-83d9cfd66404" />
+<img width="743" height="777" alt="Screenshot 2026-11-04 130201" src="https://github.com/user-attachments/assets/0ec0cd42-2447-4166-8b77-cac63caffe50" />
+
 Features
 Area	What it does
 Inventory (CRUD)	Add, display, update and delete items, with input validation and confirmation prompts
