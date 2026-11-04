@@ -1,5 +1,6 @@
 # StockSense
 Console-based Inventory Management System in pure C for shops, canteens and hostel stores. Features cart billing with GST, low stock and expiry alerts, sales reports and admin/staff roles. Uses dynamic memory, structs, unions, recursion, bitwise flags and file handling. All data is saved in a binary file with a timestamped log. One 590-line C file.
+
 <img width="756" height="907" alt="Screenshot 2026-11-04 125659" src="https://github.com/user-attachments/assets/ea677881-fc39-4aa7-bf1e-68f4e1b26863" />
 <img width="737" height="846" alt="Screenshot 2026-11-04 125839" src="https://github.com/user-attachments/assets/04022e00-7da2-4a0e-80ed-07514b06990d" />
 <img width="761" height="847" alt="Screenshot 2026-11-04 125905" src="https://github.com/user-attachments/assets/fad3cb3c-d294-4166-8219-c27ed548956a" />
@@ -40,31 +41,7 @@ Role	Username	Password
 Admin	admin	admin123
 Staff	staff	staff123
 
-Quick start: run ./stocksense --demo, log in as admin, and try the menu options.
 
-Menu
-for example :  1. Add Item (admin)            9. Sort and Display
- 2. Display All Items           10. Inventory Value
- 3. Search (ID / partial name)  11. Weekly Sales Matrix
- 4. Update Item (admin)         12. Stock Level Chart
- 5. Delete Item (admin)         13. Fast Search by ID (binary)
- 6. Sell Items (Billing)        14. Load Demo Data (admin)
- 7. Low Stock / Expiry Alerts   15. Memory Info
- 8. Top Selling / Dead Stock     0. Logout and Exit
-Sample bill
-=============== StockSense ===============
-Bill No : 1001
-Cashier : admin
-------------------------------------------------
-No   Item                 Qty   Rate     Amount
-1    Basmati Rice         2     85.00    170.00
-2    Notebook A4          2     60.00    120.00 *
-------------------------------------------------
-Subtotal          :     290.00
-GST (5% on *)     :       6.00
-GRAND TOTAL       :     296.00
-================================================
-        Thank you! Visit again.
 
 * marks taxable items.
 
