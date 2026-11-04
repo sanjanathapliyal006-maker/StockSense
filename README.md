@@ -52,7 +52,8 @@ Staff	staff	staff123
  6. Sell Items (Billing)        14. Load Demo Data (admin)
  7. Low Stock / Expiry Alerts   15. Memory Info
  8. Top Selling / Dead Stock     0. Logout and Exit
-Sample Input     =============== StockSense ===============
+Sample Input
+ =============== StockSense ===============
 Bill No : 1001
 Cashier : admin
 ------------------------------------------------
